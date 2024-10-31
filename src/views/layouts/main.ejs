@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sasindu Diluranga - Developer & EDM Artist</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <nav class="sidenav">
+        <div class="profile-section">
+            <img src="/images/profile.png" alt="Sasindu Diluranga" class="profile-image">
+            <h2>Sasindu Diluranga</h2>
+            <p>Software Engineer & EDM Artist</p>
+            <div class="social-buttons">
+                <a href="/download/cv" class="btn btn-primary">
+                    <i class="fas fa-download"></i> Download CV
+                </a>
+                <a href="https://linkedin.com/in/yourusername" target="_blank" class="btn btn-outline">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+        <div class="nav-links">
+            <a href="/" class="active">
+                <i class="fas fa-home"></i> Home
+            </a>
+            <a href="/about">
+                <i class="fas fa-user"></i> About
+            </a>
+            <a href="/experience">
+                <i class="fas fa-briefcase"></i> Experience
+            </a>
+            <a href="/projects">
+                <i class="fas fa-code-branch"></i> Projects
+            </a>
+            <a href="/certificates">
+                <i class="fas fa-certificate"></i> Certificates
+            </a>
+            <a href="/artist">
+                <i class="fas fa-music"></i> Artist Career
+            </a>
+            <a href="/contact">
+                <i class="fas fa-envelope"></i> Contact
+            </a>
+        </div>
+    </nav>
+    
+    <%- body %>
+
+    <footer class="footer">
+        <p>&copy; <%= new Date().getFullYear() %> Sasindu Diluranga. All rights reserved.</p>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="/js/main.js"></script>
+</body>
+</html>
