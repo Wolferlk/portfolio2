@@ -1,3 +1,2 @@
-# portfolio2
+# portfolio 2nd version
 
-[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/Wolferlk/portfolio2)
